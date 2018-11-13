@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 9, 2019.
+   This Internet-Draft will expire on May 19, 2019.
 
 Copyright Notice
 
@@ -168,16 +168,16 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    
    Filename: example_premium-domains_2018-11-01.csv
    
-   TLD;DOMAIN;STATUS;DESCRIPTION;CURRENCY;CREATE;RENEW;TRANSFER;RESTORE;
-   EFFECTIVE DATE;
-   example;test1;REGISTRY RESERVED;A;USD;200;200;200;40;
-   2018-11-08T00:00:00Z;
-   example;test2;POLICY RESERVED;DD;USD;75;75;75;40;
-   2018-11-08T00:00:00Z;
-   example;test3;AVAILABLE;B;USD;10000;10000;10000;40;
-   2018-12-01T00:00:00Z;
-   example;xn--4gqvdy3r;AVAILABLE;A;USD;50;50;50;40;
-   2018-12-01T06:00:00Z;
+   TLD,DOMAIN,STATUS,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
+   EFFECTIVE DATE,
+   example,test1,REGISTRY RESERVED,A,USD,200,200,200,40,
+   2018-11-08T00:00:00Z,
+   example,test2,POLICY RESERVED,DD,USD,75,75,75,40,
+   2018-11-08T00:00:00Z,
+   example,test3,AVAILABLE,B,USD,10000,10000,10000,40,
+   2018-12-01T00:00:00Z,
+   example,xn--4gqvdy3r,AVAILABLE,A,USD,50,50,50,40,
+   2018-12-01T06:00:00Z,
 
 4.2.  Multiple TLDs File Example
 
@@ -186,16 +186,16 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    
    Filename: example-registry_premium-domains_2018-08.csv
 
-   TLD;DOMAIN;STATUS;DESCRIPTION;CURRENCY;CREATE;RENEW;TRANSFER;RESTORE;
-   EFFECTIVE DATE;
-   example1;test1;REGISTRY RESERVED;A;USD;200;200;200;40;
-   2018-11-08T00:00:00Z;
-   example2;test1;POLICY RESERVED;DD;USD;75;75;75;40;
-   2018-11-08T00:00:00Z;
-   example3;test2;AVAILABLE;B;USD;10000;10000;10000;40;
-   2018-12-01T00:00:00Z;
-   example4;xn--4gqvdy3r;AVAILABLE;A;USD;50;50;50;40;
-   2018-12-01T06:00:00Z;
+   TLD,DOMAIN,STATUS,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
+   EFFECTIVE DATE,
+   example1,test1,REGISTRY RESERVED,A,USD,200,200,200,40,
+   2018-11-08T00:00:00Z,
+   example2,test1,POLICY RESERVED,DD,USD,75,75,75,40,
+   2018-11-08T00:00:00Z,
+   example3,test2,AVAILABLE,B,USD,10000,10000,10000,40,
+   2018-12-01T00:00:00Z,
+   example4,xn--4gqvdy3r,AVAILABLE,A,USD,50,50,50,40,
+   2018-12-01T06:00:00Z,
       
 Sattler                    Expires May 19, 2019                 [Page 5]
 
