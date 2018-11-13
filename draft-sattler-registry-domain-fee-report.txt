@@ -56,16 +56,17 @@ Table of Contents
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
      2.4.  Currency  . . . . . . . . . . . . . . . . . . . . . . . .   3
    3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   3
-   4.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
-     4.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   3
-     4.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   4
-     4.3.  Fee Change File Example . . . . . . . . . . . . . . . . .   4
-   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
-   7.  Implementation Status . . . . . . . . . . . . . . . . . . . .   5
-   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
-     8.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
-     8.2.  Informative References  . . . . . . . . . . . . . . . . .   6
+   4.  Fees  . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   5.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+     5.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   3
+     5.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   4
+     5.3.  Fee Change File Example . . . . . . . . . . . . . . . . .   4
+   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
+   8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   5
+   9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+     9.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
+     9.2.  Informative References  . . . . . . . . . . . . . . . . .   6
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   6
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -159,9 +160,14 @@ Sattler                    Expires May 19, 2019                 [Page 4]
 
 Internet-Draft           Registry Domain Fee Report        November 2018
 
-4.  Examples
+4.  Fees
+   
+   Fees MUST either be whole numbers or rounded to two decimal places.
+   A period is used as the dividing point.
 
-4.1.  Single TLD File Example
+5.  Examples
+
+5.1.  Single TLD File Example
 
    This is an example of a domain fee report for a single top-level
    domain .example with non-standard fees.
@@ -179,7 +185,7 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    example,xn--4gqvdy3r,AVAILABLE,A,USD,50,50,50,40,
    2018-12-01T06:00:00Z,
 
-4.2.  Multiple TLDs File Example
+5.2.  Multiple TLDs File Example
 
    This is an example of a domain fee report for multiple top-level
    domains from example registry with non-standard fees.
@@ -201,7 +207,7 @@ Sattler                    Expires May 19, 2019                 [Page 5]
 
 Internet-Draft           Registry Domain Fee Report        November 2018
 
-4.3.  Fee Change File Example
+5.3.  Fee Change File Example
 
    If the fee for a domain name is changing or moving to reserved or
    unreserved in the future, there SHOULD be two entries for the name:
@@ -221,11 +227,11 @@ Internet-Draft           Registry Domain Fee Report        November 2018
       RESERVED,A,USD,200,200,200,40,2016-02-05T09:31:40.2Z
       example,e.example,REGISTRY RESERVED,B,USD,100,100,100,40,
 
-5.  IANA Considerations
+6.  IANA Considerations
 
    This document has no IANA actions.
 
-6.  Security Considerations
+7.  Security Considerations
 
    The registry reporting reports described in this document do not
    provide any security services.
@@ -234,7 +240,7 @@ Sattler                    Expires May 19, 2019                 [Page 6]
 
 Internet-Draft           Registry Domain Fee Report        November 2018
 
-7.  Implementation Status
+8.  Implementation Status
 
    Note to RFC Editor: Please remove this section and the reference to
    [RFC7942] before publication.
@@ -261,9 +267,9 @@ Internet-Draft           Registry Domain Fee Report        November 2018
 
    Add implementation details once available.
 
-8.  References
+9.  References
 
-8.1.  Normative References
+9.1.  Normative References
 
    [I-D.mcpherson-sattler-registry-report-structure]
               McPherson, N. and Sattler, T., "Registry Report Strucutre"
@@ -279,7 +285,7 @@ Sattler                    Expires May 19, 2019                 [Page 7]
 
 Internet-Draft           Registry Domain Fee Report        November 2018
               
-8.2.  Informative References
+9.2.  Informative References
 
    [I-D.mcpherson-sattler-registry-reporting-repo]
               McPherson, N. and Sattler, T., "Registry Reporting
