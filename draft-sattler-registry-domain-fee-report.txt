@@ -178,7 +178,7 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    EFFECTIVE DATE,
    example,test1.example,REGISTRY RESERVED,A,USD,200,200,200,40,
    2018-11-08T00:00:00Z,
-   example,test2.example,POLICY RESERVED,DD,USD,75,75,75,40,
+   example,test2.example,POLICY RESERVED,DD,USD,75.50,75.50,75.50,40,
    2018-11-08T00:00:00Z,
    example,test3.example,AVAILABLE,B,USD,10000,10000,10000,40,
    2018-12-01T00:00:00Z,
@@ -196,7 +196,7 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    EFFECTIVE DATE,
    example1,test1.example1,REGISTRY RESERVED,A,USD,200,200,200,40,
    2018-11-08T00:00:00Z,
-   example2,test1.example2,POLICY RESERVED,DD,USD,75,75,75,40,
+   example2,test1.example2,POLICY RESERVED,DD,USD,75.50,75.50,75.50,40,
    2018-11-08T00:00:00Z,
    example3,test2.example3,AVAILABLE,B,USD,10000,10000,10000,40,
    2018-12-01T00:00:00Z,
@@ -224,7 +224,7 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    EFFECTIVE DATE,
    example,test1.example,REGISTRY RESERVED,A,USD,200,200,200,40,
    2018-11-01T00:00:00Z,
-   example,test1.example,REGISTRY RESERVED,DD,USD,75,75,75,40,
+   example,test1.example,REGISTRY RESERVED,DD,USD,75.50,75.50,75.50,40,
    2018-12-01T00:00:00Z,
 
 6.  IANA Considerations
