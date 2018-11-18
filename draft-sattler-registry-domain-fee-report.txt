@@ -49,31 +49,27 @@ Sattler                    Expires May 19, 2019                 [Page 1]
 Internet-Draft           Registry Domain Fee Report        November 2018
 
 Table of Contents
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   3
-     2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   2
+     2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   2
      2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
      2.4.  Currency  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   4
-   4.  Fees  . . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
-   5.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
-     5.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   5
-     5.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   5
-     5.3.  Fee Change File Example . . . . . . . . . . . . . . . . .   6
-   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   6
-   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   6
-   8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   7
-   9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   7
-     9.1.  Normative References  . . . . . . . . . . . . . . . . . .   7
-     9.2.  Informative References  . . . . . . . . . . . . . . . . .   8
-   Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   8
-   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   8
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   8
-
-Sattler                    Expires May 19, 2019                 [Page 2]
-
-Internet-Draft           Registry Domain Fee Report        November 2018
+   3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   3
+   4.  Fees  . . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+   5.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+     5.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   4
+     5.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   4
+     5.3.  Fee Change File Example . . . . . . . . . . . . . . . . .   5
+   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   5
+   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
+   8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   5
+   9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   6
+     9.1.  Normative References  . . . . . . . . . . . . . . . . . .   6
+     9.2.  Informative References  . . . . . . . . . . . . . . . . .   6
+   Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   6
+   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   6
 
 1.  Introduction
 
@@ -103,6 +99,10 @@ Internet-Draft           Registry Domain Fee Report        November 2018
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
+   
+Sattler                    Expires May 19, 2019                 [Page 2]
+
+Internet-Draft           Registry Domain Fee Report        November 2018
 
 2.2.  Dates and Times
 
@@ -118,10 +118,6 @@ Internet-Draft           Registry Domain Fee Report        November 2018
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
-   
-Sattler                    Expires May 19, 2019                 [Page 3]
-
-Internet-Draft           Registry Domain Fee Report        November 2018
 
 3.  Report Headings
 
@@ -156,7 +152,7 @@ Internet-Draft           Registry Domain Fee Report        November 2018
                      will go into effect and formatted according section
                      2.2 of this document.
    
-Sattler                    Expires May 19, 2019                 [Page 4]
+Sattler                    Expires May 19, 2019                 [Page 3]
 
 Internet-Draft           Registry Domain Fee Report        November 2018
 
@@ -203,7 +199,7 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    xn--zckzah,xn--r8jz45g.xn--zckzah,AVAILABLE,A,USD,50,50,50,40,
    2018-12-01T06:00:00Z
       
-Sattler                    Expires May 19, 2019                 [Page 5]
+Sattler                    Expires May 19, 2019                 [Page 4]
 
 Internet-Draft           Registry Domain Fee Report        November 2018
 
@@ -233,12 +229,8 @@ Internet-Draft           Registry Domain Fee Report        November 2018
 
 7.  Security Considerations
 
-   The registry reporting reports described in this document do not
+   The registry domain fee report described in this document does not
    provide any security services.
-   
-Sattler                    Expires May 19, 2019                 [Page 6]
-
-Internet-Draft           Registry Domain Fee Report        November 2018
 
 8.  Implementation Status
 
@@ -257,6 +249,10 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    be construed to be, a catalog of available implementations or their
    features.  Readers are advised to note that other implementations may
    exist.
+   
+Sattler                    Expires May 19, 2019                 [Page 5]
+
+Internet-Draft           Registry Domain Fee Report        November 2018
 
    According to [RFC7942], "this will allow reviewers and working groups
    to assign due consideration to documents that have the benefit of
@@ -280,10 +276,6 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
-              
-Sattler                    Expires May 19, 2019                 [Page 7]
-
-Internet-Draft           Registry Domain Fee Report        November 2018
               
 9.2.  Informative References
 
@@ -316,5 +308,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                    Expires May 19, 2019                 [Page 8]
+Sattler                    Expires May 19, 2019                 [Page 6]
 
