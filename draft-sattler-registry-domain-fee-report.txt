@@ -296,7 +296,7 @@ Appendix A.  Change History
 
 A.1.  Change from 00 to 01
 
-   Fixed minor typos and changed example file name in section 5.3.
+   Fixed minor typos. Clarified  example file name in section 5.3.
 
 Appendix B.  Acknowledgements
 
