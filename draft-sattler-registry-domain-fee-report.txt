@@ -1,7 +1,7 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: May 29, 2019                                  November 30, 2018
+Expires: June 2, 2019                                   December 3, 2018
 
                         Registry Domain Fee Report
                 draft-sattler-registry-domain-fee-report-02
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 29, 2019.
+   This Internet-Draft will expire on June 2, 2019.
 
 Copyright Notice
 
@@ -44,9 +44,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                    Expires May 29, 2019                 [Page 1]
+Sattler                    Expires June 2, 2019                 [Page 1]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft           Registry Domain Fee Report        December 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -69,6 +69,7 @@ Table of Contents
      9.2.  Informative References  . . . . . . . . . . . . . . . . .   6
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   7
      A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   7
+     A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   7
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   7
 
@@ -101,9 +102,9 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                    Expires May 29, 2019                 [Page 2]
+Sattler                    Expires June 2, 2019                 [Page 2]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft           Registry Domain Fee Report        December 2018
 
 2.2.  Dates and Times
 
@@ -154,9 +155,9 @@ Internet-Draft           Registry Domain Fee Report        November 2018
                      will go into effect and formatted according to
                      section 2.2 of this document.
    
-Sattler                    Expires May 29, 2019                 [Page 3]
+Sattler                    Expires June 2, 2019                 [Page 3]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft           Registry Domain Fee Report        December 2018
 
 4.  Fees
    
@@ -201,9 +202,9 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    xn--zckzah,xn--r8jz45g.xn--zckzah,AVAILABLE,A,USD,50,50,50,40,
    2018-12-01T06:00:00Z
       
-Sattler                    Expires May 29, 2019                 [Page 4]
+Sattler                    Expires June 2, 2019                 [Page 4]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft           Registry Domain Fee Report        December 2018
 
 5.3.  Fee Change File Example
 
@@ -253,9 +254,9 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    features.  Readers are advised to note that other implementations may
    exist.
    
-Sattler                    Expires May 29, 2019                 [Page 5]
+Sattler                    Expires June 2, 2019                 [Page 5]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft           Registry Domain Fee Report        December 2018
 
    According to [RFC7942], "this will allow reviewers and working groups
    to assign due consideration to documents that have the benefit of
@@ -293,15 +294,19 @@ Internet-Draft           Registry Domain Fee Report        November 2018
               7942, July 2016,
               <https://www.rfc-editor.org/info/rfc7942>.
               
-Sattler                    Expires May 29, 2019                 [Page 6]
+Sattler                    Expires June 2, 2019                 [Page 6]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft           Registry Domain Fee Report        December 2018
 
 Appendix A.  Change History
 
 A.1.  Change from 00 to 01
 
    Fixed minor typos. Clarified example file name in section 5.3.
+
+A.2.  Change from 01 to 02
+
+   Clarified the Period. Fixed numerous typos.
 
 Appendix B.  Acknowledgements
 
@@ -319,5 +324,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                    Expires May 29, 2019                 [Page 7]
+Sattler                    Expires June 2, 2019                 [Page 7]
 
