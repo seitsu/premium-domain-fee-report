@@ -1,7 +1,7 @@
-## Registry Domain Fee Report
+## Premium Domain Fee Report
 
 ### Goal
-The goal is to draft a Domain Fee Report based on the [Registry Report Structure] and will be delivered through the [Registry Reporting Repository]. It shall be submitted to the IETF as best practice and hopefully result in a [RFC].
+The goal is to draft a Premium Domain Fee Report based on the [Registry Report Structure] and will be delivered through the [Registry Reporting Repository]. It shall be submitted to the IETF as best practice and hopefully result in a [RFC].
 
 ### The Current Status
 This idea was raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee, and further discussed in the [CPH TechOps] Group.
@@ -19,4 +19,4 @@ This is free and unencumbered software released into the public domain. For more
 [LICENSE]: /LICENSE
 [Registry Reporting Repository]: https://github.com/seitsu/registry-reporting-repository
 [Registry Report Structure]: https://github.com/seitsu/registry-report-structure
-[draft]: /draft-sattler-registry-domain-fee-report.txt
+[draft]: /draft-sattler-premium-domain-fee-report.txt
