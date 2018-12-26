@@ -1,8 +1,8 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         R. Carney
-Expires: June 30, 2019                                      GoDaddy Inc.
-                                                       December 31, 2018
+Expires: June 26, 2019                                      GoDaddy Inc.
+                                                       December 27, 2018
 
                         Premium Domain Fee Report
                draft-sattler-premium-domain-fee-report-00
@@ -28,7 +28,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on June 30, 2019.
+   This Internet-Draft will expire on June 26, 2019.
 
 Copyright Notice
 
@@ -45,7 +45,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                    Expires June 30, 2019                [Page 1]
+Sattler & Carney           Expires June 26, 2019                [Page 1]
 
 Internet-Draft           Premium Domain Fee Report         December 2018
 
@@ -104,7 +104,7 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                    Expires June 30, 2019                [Page 2]
+Sattler & Carney           Expires June 26, 2019                [Page 2]
 
 Internet-Draft           Premium Domain Fee Report         December 2018
 
@@ -157,7 +157,7 @@ Internet-Draft           Premium Domain Fee Report         December 2018
                      will go into effect and formatted according to
                      section 2.2 of this document.
    
-Sattler                    Expires June 30, 2019                [Page 3]
+Sattler & Carney           Expires June 26, 2019                [Page 3]
 
 Internet-Draft           Premium Domain Fee Report         December 2018
 
@@ -204,7 +204,7 @@ Internet-Draft           Premium Domain Fee Report         December 2018
    xn--zckzah,xn--r8jz45g.xn--zckzah,AVAILABLE,A,USD,50,50,50,40,
    2018-12-01T06:00:00Z
       
-Sattler                    Expires June 30, 2019                [Page 4]
+Sattler & Carney           Expires June 26, 2019                [Page 4]
 
 Internet-Draft           Premium Domain Fee Report         December 2018
 
@@ -256,7 +256,7 @@ Internet-Draft           Premium Domain Fee Report         December 2018
    features.  Readers are advised to note that other implementations may
    exist.
    
-Sattler                    Expires June 30, 2019                [Page 5]
+Sattler & Carney           Expires June 26, 2019                [Page 5]
 
 Internet-Draft           Premium Domain Fee Report         December 2018
 
@@ -296,7 +296,7 @@ Internet-Draft           Premium Domain Fee Report         December 2018
               7942, July 2016,
               <https://www.rfc-editor.org/info/rfc7942>.
               
-Sattler                    Expires June 30, 2019                [Page 6]
+Sattler & Carney           Expires June 26, 2019                [Page 6]
 
 Internet-Draft           Premium Domain Fee Report         December 2018
 
@@ -339,5 +339,5 @@ Authors' Addresses
    Email: rcarney@godaddy.com
    URI:   http://www.godaddy.com
 
-Sattler                    Expires June 30, 2019                [Page 7]
+Sattler & Carney           Expires June 26, 2019                [Page 7]
 
