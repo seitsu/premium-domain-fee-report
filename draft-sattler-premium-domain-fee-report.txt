@@ -1,17 +1,17 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         R. Carney
-Expires: June 27, 2019                                      GoDaddy Inc.
-                                                       December 28, 2018
+Expires: July 30, 2019                                      GoDaddy Inc.
+                                                        January 31, 2019
 
                         Premium Domain Fee Report
-               draft-sattler-premium-domain-fee-report-00
+               draft-sattler-premium-domain-fee-report-01
 
 Abstract
    
-   This document describes the content of a premium domain name fee
-   report based on the registry report structure and delivered by the
-   registry reporting repository.
+   This document describes the content of a Premium Domain Fee Report
+   based on the Report Structure and delivered by the Reporting
+   Repository.
 
 Status of This Memo
 
@@ -28,11 +28,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on June 27, 2019.
+   This Internet-Draft will expire on June 30, 2019.
 
 Copyright Notice
 
-   Copyright (c) 2018 IETF Trust and the persons identified as the
+   Copyright (c) 2019 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -45,9 +45,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler & Carney           Expires June 27, 2019                [Page 1]
+Sattler & Carney           Expires July 30, 2019                [Page 1]
 
-Internet-Draft           Premium Domain Fee Report         December 2018
+Internet-Draft           Premium Domain Fee Report          January 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -72,6 +72,7 @@ Table of Contents
      A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   7
      A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   7
      A.3.  Change from 02 to PREMIUMFEE 00   . . . . . . . . . . . .   7
+     A.4.  Change from PREMIUMFEE 00 to PREMIUMFEE 01  . . . . . . .   7
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
    Authors' Addresses. . . . . . . . . . . . . . . . . . . . . . . .   7
 
@@ -81,16 +82,16 @@ Table of Contents
    reports and documents that their registrars require on a daily,
    weekly and monthly basis. These most commonly include transaction
    reports, as well as lists containing currently unavailable domains
-   and current premium domains. These reports are critical for
+   and current premium domain fees. These reports are critical for
    registrars' businesses and play an important role in accounting and
    operations processes as well as in sales and marketing activities.
    In the current set-up registrars must download these reports from
    each registry's intranet in a different manner according to each
    registry's own document management set up.
    
-   This document describes the content of a premium domain fee report
-   based on the [I-D.mcpherson-sattler-registry-report-structure] and
-   delivered by the [I-D.mcpherson-sattler-registry-reporting-repo].
+   This document describes the content of a Premium Domain Fee Report
+   based on the [I-D.mcpherson-sattler-report-structure] and delivered
+   by the [I-D.mcpherson-sattler-reporting-repository].
 
 2.  Terminology and Definitions
 
@@ -102,26 +103,26 @@ Table of Contents
 2.1.  Internationalized Domain Names
 
    MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
+   [I-D.mcpherson-sattler-report-structure].
    
-Sattler & Carney           Expires June 27, 2019                [Page 2]
+Sattler & Carney           Expires July 30, 2019                [Page 2]
 
-Internet-Draft           Premium Domain Fee Report         December 2018
+Internet-Draft           Premium Domain Fee Report          January 2019
 
 2.2.  Dates and Times
 
    MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
+   [I-D.mcpherson-sattler-report-structure].
    
 2.3.  Character Encoding
 
    MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
+   [I-D.mcpherson-sattler-report-structure].
    
 2.4.  Currency
 
    MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
+   [I-D.mcpherson-sattler-report-structure].
 
 3.  Report Headings
 
@@ -157,9 +158,9 @@ Internet-Draft           Premium Domain Fee Report         December 2018
                      will go into effect and formatted according to
                      section 2.2 of this document.
    
-Sattler & Carney           Expires June 27, 2019                [Page 3]
+Sattler & Carney           Expires July 30, 2019                [Page 3]
 
-Internet-Draft           Premium Domain Fee Report         December 2018
+Internet-Draft           Premium Domain Fee Report          January 2019
 
 4.  Fees
    
@@ -204,9 +205,9 @@ Internet-Draft           Premium Domain Fee Report         December 2018
    xn--zckzah,xn--r8jz45g.xn--zckzah,AVAILABLE,A,USD,50,50,50,40,
    2018-12-01T06:00:00Z
       
-Sattler & Carney           Expires June 27, 2019                [Page 4]
+Sattler & Carney           Expires July 30, 2019                [Page 4]
 
-Internet-Draft           Premium Domain Fee Report         December 2018
+Internet-Draft           Premium Domain Fee Report          January 2019
 
 5.3.  Fee Change File Example
 
@@ -256,9 +257,9 @@ Internet-Draft           Premium Domain Fee Report         December 2018
    features.  Readers are advised to note that other implementations may
    exist.
    
-Sattler & Carney           Expires June 27, 2019                [Page 5]
+Sattler & Carney           Expires July 30, 2019                [Page 5]
 
-Internet-Draft           Premium Domain Fee Report         December 2018
+Internet-Draft           Premium Domain Fee Report          January 2019
 
    According to [RFC7942], "this will allow reviewers and working groups
    to assign due consideration to documents that have the benefit of
@@ -273,11 +274,10 @@ Internet-Draft           Premium Domain Fee Report         December 2018
 
 9.1.  Normative References
 
-   [I-D.mcpherson-sattler-registry-report-structure]
-              McPherson, N. and Sattler, T., "Registry Report Strucutre"
-              , <https://datatracker.ietf.org/doc/draft-mcpherson-
-              sattler-registry-report-structure/> (work in
-              progress), November 2018
+   [I-D.mcpherson-sattler-report-structure]
+              McPherson, N. and Sattler, T., "Report Strucutre",
+              <https://datatracker.ietf.org/doc/draft-mcpherson-sattler-
+              report-structure/> (work in progress), January 2019
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119, March 1997,
@@ -285,20 +285,19 @@ Internet-Draft           Premium Domain Fee Report         December 2018
               
 9.2.  Informative References
 
-   [I-D.mcpherson-sattler-registry-reporting-repo]
-              McPherson, N. and Sattler, T., "Registry Reporting
-              Repository", <https://datatracker.ietf.org/doc/draft-
-              mcpherson-sattler-registry-reporting-repo/> (work in
-              progress), November 2018
+   [I-D.mcpherson-sattler-reporting-repository]
+              McPherson, N. and Sattler, T., "Reporting Repository",
+              <https://datatracker.ietf.org/doc/draft-mcpherson-sattler-
+              reporting-repository/> (work in progress), January 2019
 
    [RFC7942]  Sheffer, Y. and Farrel, A., "Improving Awareness of
               Running Code: The Implementation Status Section", RFC
               7942, July 2016,
               <https://www.rfc-editor.org/info/rfc7942>.
               
-Sattler & Carney           Expires June 27, 2019                [Page 6]
+Sattler & Carney           Expires July 30, 2019                [Page 6]
 
-Internet-Draft           Premium Domain Fee Report         December 2018
+Internet-Draft           Premium Domain Fee Report          January 2019
 
 Appendix A.  Change History
 
@@ -310,9 +309,13 @@ A.2.  Change from 01 to 02
 
    Clarified the Period. Fixed numerous typos.
    
-A.2.  Change from 02 to PREMIUMFEE 00
+A.3.  Change from 02 to PREMIUMFEE 00
 
    Changed draft name. Added Roger Carney as additional author.
+   
+A.4.  Change from PREMIUMFEE 00 to PREMIUMFEE 01
+
+   Editorial changes.
 
 Appendix B.  Acknowledgements
 
@@ -339,5 +342,5 @@ Authors' Addresses
    Email: rcarney@godaddy.com
    URI:   http://www.godaddy.com
 
-Sattler & Carney           Expires June 27, 2019                [Page 7]
+Sattler & Carney           Expires July 30, 2019                [Page 7]
 
