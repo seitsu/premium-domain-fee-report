@@ -129,17 +129,10 @@ Internet-Draft           Premium Domain Fee Report            March 2019
 
    The first row MUST be the column headings in the following order:
    
-   TLD               It MUST contain the top-level domain name and
-                     formatted according to section 2.1 of this
+   LABEL             It MUST contain the domain label only (i.e. just
+                     the second-level part, no TLD or other parts)
+                     formatted according to section 2.3 of this
                      document.
-   
-   DOMAIN            It MUST contain the domain name formatted according
-                     to section 2.1 of this document.
-   
-   STATUS            It MUST contain the status of the domain name. It
-                     MUST either be 'REGISTRY REGISTERED', 'REGISTERED',
-                     'AVAILABLE', 'REGISTRY RESERVED' or 'POLICY
-                     RESERVED'.
    
    DESCRIPTION       It MUST contain the descriptive name of the premium
                      tier to which the domain is allocated.
@@ -155,9 +148,10 @@ Internet-Draft           Premium Domain Fee Report            March 2019
    
    RESTORE           It MUST contain the fee for a domain restore.
    
-   EFFECTIVE DATE    It MUST contain the date and time the fee listed
+   EFFECTIVE_DATE    It MUST contain the date and time the fee listed
                      will go into effect and formatted according to
-                     section 2.2 of this document.
+                     section 2.2 of this document, or if left blank,
+                     indicates that the fee is already in effect).
    
 Sattler & Carney         Expires September 26, 2019             [Page 3]
 
@@ -165,46 +159,23 @@ Internet-Draft           Premium Domain Fee Report            March 2019
 
 4.  Fees
    
-   Fees MUST either be whole numbers or rounded to two decimal places.
-   The dividing point is a period (.).
+   Fees MUST be rendered as valid decimal numbers, using period (.) as
+   a dividing point if the number isn't an integer.  Fees must be
+   positive.
 
-5.  Examples
+5.  Example
 
-5.1.  Single TLD File Example
-
-   This is an example of a domain fee report for a single top-level
-   domain .example with non-standard fees.
+   This is an example of a domain fee report for the top-level
+   domain .example with non-standard fees:
    
    Filename: example_premium-domains_2018-11-01.csv.gz
    
-   TLD,DOMAIN,STATUS,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
-   EFFECTIVE DATE
-   example,test1.example,REGISTRY RESERVED,A,USD,200,200,200,40,
-   2018-11-08T00:00:00Z
-   example,test2.example,POLICY RESERVED,DD,USD,75.50,75.50,75.50,40,
-   2018-11-08T00:00:00Z
-   example,test3.example,AVAILABLE,B,USD,10000,10000,10000,40,
-   2018-12-01T00:00:00Z
-   example,xn--4gqvdy3r.example,AVAILABLE,A,USD,50,50,50,40,
-   2018-12-01T06:00:00Z
-
-5.2.  Multiple TLDs File Example
-
-   This is an example of a domain fee report for multiple top-level
-   domains from example registry with non-standard fees.
-   
-   Filename: example-registry_premium-domains_2018-11.csv.gz
-
-   TLD,DOMAIN,STATUS,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
-   EFFECTIVE DATE
-   example1,test1.example1,REGISTRY RESERVED,A,USD,200,200,200,40,
-   2018-11-08T00:00:00Z
-   example2,test1.example2,POLICY RESERVED,DD,USD,75.50,75.50,75.50,40,
-   2018-11-08T00:00:00Z
-   example3,test2.example3,AVAILABLE,B,USD,10000,10000,10000,40,
-   2018-12-01T00:00:00Z
-   xn--zckzah,xn--r8jz45g.xn--zckzah,AVAILABLE,A,USD,50,50,50,40,
-   2018-12-01T06:00:00Z
+   LABEL,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
+   EFFECTIVE_DATE
+   test1,A,USD,200,200,200,40,2018-11-08T00:00:00Z
+   test2,DD,USD,75.50,75.50,75.50,40,2018-11-08T00:00:00Z
+   test3,B,USD,10000,10000,10000,40,2018-12-01T00:00:00Z
+   xn--4gqvdy3r,A,USD,50,50,50,40,2018-12-01T06:00:00Z
       
 Sattler & Carney         Expires September 26, 2019             [Page 4]
 
@@ -212,24 +183,23 @@ Internet-Draft           Premium Domain Fee Report            March 2019
 
 5.3.  Fee Change File Example
 
-   If the fee for a domain name is changing or moving to reserved or
-   unreserved in the future, there MUST be two entries for the domain.
+   If the fee for a domain name is changing, there MUST be two entries
+   for the domain.
    
-   One entry for the current fee and status of the name, this entry MUST
-   be removed once the change takes place, and one entry for the future
-   price of the domain name with its effective date.
+   One entry should be for the current fee, and MUST be removed the next
+   time the report is generated once the change takes place. One entry
+   should be for the future fee for the domain name with its effective
+   date.
 
    Example of a file that contains a future fee change for a single top-
    level domain .example.
 
    Filename: example_premium-domains_2018-11-01.csv.gz
    
-   TLD,DOMAIN,STATUS,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
-   EFFECTIVE DATE
-   example,test1.example,REGISTRY RESERVED,A,USD,200,200,200,40,
-   2018-11-01T00:00:00Z
-   example,test1.example,REGISTRY RESERVED,DD,USD,75.50,75.50,75.50,40,
-   2018-12-01T00:00:00Z
+   LABEL,DESCRIPTION,CURRENCY,CREATE,RENEW,TRANSFER,RESTORE,
+   EFFECTIVE_DATE
+   test1,A,USD,200,200,200,40,2018-11-01T00:00:00Z
+   test1,DD,USD,75.50,75.50,75.50,40,2018-12-01T00:00:00Z
 
 6.  IANA Considerations
 
