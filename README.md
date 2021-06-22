@@ -18,3 +18,4 @@ The draft is written in IETF RFC style. Therefore, you may validate this [draft]
 [Reporting Repository]: https://github.com/seitsu/reporting-repository
 [Report Structure]: https://github.com/seitsu/report-structure
 [draft]: /draft-sattler-premium-domain-fee-report.txt
+[Simple Registration Reporting]: https://datatracker.ietf.org/doc/draft-ietf-regext-simple-registration-reporting/
